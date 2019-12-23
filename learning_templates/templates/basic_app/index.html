@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% load my_templates %}
+
+{% block title_block %}
+  Homepage
+{% endblock %}
+
+{% block body_block %}
+  <h1>WELCOME TO INDEX!</h1>
+  <h1>{{ text|strip_value:'world' }}</h1>
+  <h1>{{ number|add:'10' }}</h1>
+{% endblock %}
