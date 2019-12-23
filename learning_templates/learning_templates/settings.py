@@ -25,7 +25,7 @@ SECRET_KEY = '=nsp(3ncd+2ifbsx(sokx)c(kou-^jh!hc-&lr2x+@m((1-wa7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arnovdven.pythonanywhere.com']
 
 
 # Application definition
